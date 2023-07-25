@@ -257,6 +257,26 @@ secondary_entities:
     category: diagnostic
     name: Power
     dps:
+      - id: 114
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
+      - id: 115
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
       - id: 116
         type: integer
         name: sensor
@@ -264,6 +284,36 @@ secondary_entities:
         class: measurement
         mapping:
           - scale: 29.3
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
+      - id: 119
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
+      - id: 120
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
+      - id: 129
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
   - entity: switch
     name: Display
     category: config
