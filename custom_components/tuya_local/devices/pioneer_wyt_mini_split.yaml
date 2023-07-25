@@ -1,4 +1,4 @@
-name: StarLight heatpump
+name: Pioneer WYT Mini Split AC/Heat Pump
 primary_entity:
   entity: climate
   translation_key: aircon_extra
@@ -29,20 +29,15 @@ primary_entity:
               icon: "mdi:water"
               value: dry            
     - id: 2
-      name: temperature
       type: integer
+      name: temperature
       range:
-        min: 160
-        max: 310
+        min: 610
+        max: 880
       mapping:
         - scale: 10
-          step: 5
-          constraint: mode
-          conditions:
-            - dps_val: wet
-              invalid: true
-            - dps_val: wind
-              invalid: true
+          step: 10
+      unit: F
     - id: 3
       name: current_temperature
       type: integer
