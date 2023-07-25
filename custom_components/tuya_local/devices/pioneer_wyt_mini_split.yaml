@@ -252,6 +252,18 @@ secondary_entities:
             value: "Elderly"
           - dps_val: "child"
             value: "Child"
+  - entity: sensor
+    class: power
+    category: diagnostic
+    name: Power
+    dps:
+      - id: 116
+        type: integer
+        name: sensor
+        unit: "W"
+        class: measurement
+        mapping:
+          - scale: 29.3
   - entity: switch
     name: Display
     category: config
